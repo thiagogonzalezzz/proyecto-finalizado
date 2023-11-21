@@ -3,46 +3,15 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
+    /* background-color: white; */
 }
 html{
     scroll-behavior: smooth;
 }
-/* MAIN */
-.banner{
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-    background-image: url(multimedia/nature-3735436_1920.jpg);
-    background-size: cover;
+/* Main */
+.carousel-item {
+    max-height: 500px;
 }
-.banner p{
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0);
-    width: 70%;
-    border: 5px solid orange;
-    border-radius: 10px;
-    font-size: 40px;
-    margin: 2%;
-    padding: 2%;
-    text-align: center;
-}
-.banner a{
-    text-decoration: none;
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-    width: 40%;
-    border: 5px solid orange;
-    border-radius: 10px;
-    font-size: 30px;
-    margin: 2%;
-    padding: 2%;
-    text-align: center;
-}
-.banner a:hover{
-    color: black;
-}
-/* MAIN */
 /* INDEX SECTION */
 #sec1{
     font-size: 25px;
