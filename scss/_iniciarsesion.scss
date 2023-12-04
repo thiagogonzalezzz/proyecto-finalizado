@@ -1,0 +1,71 @@
+/* INICIAR SESION */
+
+.iniciosesion {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  
+    h1 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 30px;
+      font-weight: bold;
+      color: black;
+      text-shadow: 2px 2px 5px black;
+    }
+  
+    form {
+      .forminicio {
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 18px;
+        border: 1px solid black;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        outline: 0px;
+      }
+  
+      .btninicio {
+        padding: 15px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        outline: 0px;
+        color: black;
+        border: 10px solid white;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    }
+  
+    .recordar {
+      padding: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      outline: 0px;
+      cursor: pointer;
+      text-align: center;
+    }
+  
+    .registrarse {
+      padding: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      outline: 0px;
+      cursor: pointer;
+      text-align: center;
+  
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  
+  /* INICIAR SESION */
+  
