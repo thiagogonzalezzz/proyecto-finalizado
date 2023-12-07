@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Contacto">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -51,21 +52,48 @@
   </nav>
     <!-- HEADER -->
     <!-- CONTENT -->
-    <h1 id="tcontacto">Contacto</h1>
-    <div class="containerform">
-        <div class="divcontacto">
-            <h2>M&G</h2>
-            <h3>Consulta por su compra</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi blanditiis amet ut velit omnis quam ipsum id, praesentium dicta dolores enim aspernatur ex, et sint perspiciatis, cumque dolore minima reprehenderit!</p>
-        </div>
-        <form action="#" autocomplete="off">
-            <input type="text" name="Nombre" placeholder="Ingresa tu nombre" class="campo">
-            <input type="text" name="Apellido" placeholder="Ingresa tu apelllido" class="campo">
-            <input type="email" name="Email" placeholder="Ingresa tu correo" class="campo">
-            <textarea name="Consulta" id="" cols="30" rows="10" placeholder="Ingresa tu Consulta"></textarea>
-            <input type="submit" name="Enviar" value="Enviar mensaje" class="btnenviar">
-        </form>
-    </div>
+    <div class="content">
+      <h1 class="logo">Contacto</h1>
+      <div class="contact-wrapper animated bounceInUp">
+          <div class="contact-form">
+              <form action="">
+                  <p>
+                      <label>Nombre y apellido</label>
+                      <input type="text" name="Nombre y apellido">
+                  </p>
+                  <p>
+                      <label>Email</label>
+                      <input type="email" name="email">
+                  </p>
+                  <p>
+                      <label>Telefono</label>
+                      <input type="tel" name="Telefono">
+                  </p>
+                  <p>
+                      <label>Motivo de contacto</label>
+                      <input type="text" name="Motivo">
+                  </p>
+                  <p class="block">
+                     <label>Mensaje</label> 
+                      <textarea name="mensaje" rows="3"></textarea>
+                  </p>
+                  <p class="block">
+                      <button>Enviar</button>
+                  </p>
+              </form>
+          </div>
+          <div class="contact-info">
+              <h4>Mas info</h4>
+              <ul>
+                  <li><i class="fas fa-map-marker-alt"></i> Calle falsa 123</li>
+                  <li><i class="fas fa-phone"></i> (11) 1111 1111</li>
+                  <li><i class="fas fa-envelope-open-text"></i> contacto@mg.com</li>
+              </ul>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ullam dicta, similique atque necessitatibus beatae dolor unde natus mollitia modi nulla repudiandae, quam, quis reprehenderit doloremque maiores suscipit saepe nihil. Facere similique beatae expedita pariatur, minus repudiandae incidunt sequi nostrum.</p>
+              <p>Gracias por comunicarte con nosotros!</p>
+          </div>
+      </div>
+  </div>
     <!-- CONTENT -->
     <!-- FOOTER -->
     <footer>
