@@ -236,14 +236,12 @@ footer {
   text-align: center;
   margin: 20px auto;
 }
-
 .headernos h1 {
   font-size: 50px;
   color: black;
   margin-bottom: 25px;
   position: relative;
 }
-
 .headernos h1::after {
   content: "";
   position: absolute;
@@ -253,7 +251,6 @@ footer {
   margin: 0 auto;
   background-color: orange;
 }
-
 .headernos p {
   font-size: 18px;
   color: #666;
@@ -278,14 +275,12 @@ footer {
   margin-right: 40px;
   overflow: hidden;
 }
-
 .about-image img {
   max-width: 100%;
   height: auto;
   display: block;
   transition: 1s ease;
 }
-
 .about-image:hover img {
   transform: scale(1.2);
 }
@@ -293,19 +288,16 @@ footer {
 .about-content {
   flex: 1;
 }
-
 .about-content h2 {
   font-size: 23px;
   margin-bottom: 15px;
   color: #333;
 }
-
 .about-content p {
   font-size: 18px;
   line-height: 1.5;
   color: #666;
 }
-
 .about-content .read-more {
   display: inline-block;
   padding: 10px 20px;
@@ -317,7 +309,6 @@ footer {
   margin-top: 15px;
   transition: 0.3s ease;
 }
-
 .about-content .read-more:hover {
   background-color: chocolate;
 }
@@ -325,7 +316,6 @@ footer {
 .mapanos {
   padding-bottom: 50px;
 }
-
 .mapanos h2 {
   font-size: 40px;
   color: black;
@@ -353,7 +343,6 @@ ul {
 .contact-wrapper {
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
 }
-
 .contact-wrapper > * {
   padding: 1em;
 }
@@ -362,23 +351,17 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 .contact-form form label {
   display: block;
 }
-
 .contact-form form p {
   margin: 0;
   padding: 1em;
 }
-
 .contact-form form .block {
   grid-column: 1/3;
 }
-
-.contact-form form button,
-.contact-form form input,
-.contact-form form textarea {
+.contact-form form button, .contact-form form input, .contact-form form textarea {
   width: 100%;
   padding: 0.7em;
   border: none;
@@ -388,16 +371,13 @@ ul {
   border-bottom: 1px solid black;
   border-radius: 50px;
 }
-
 .contact-form form button {
   background: orange;
   border: 0;
   text-transform: uppercase;
   padding: 1em;
 }
-
-.contact-form form button:hover,
-.contact-form form button:focus {
+.contact-form form button:hover, .contact-form form button:focus {
   background: chocolate;
   color: white;
   transition: background-color 3s ease-out;
@@ -410,7 +390,7 @@ ul {
   border-radius: 50px;
 }
 
-.contact-info h4, .contact-info ul, .contact-info p {
+h4, ul, p {
   text-align: center;
   margin: 0 0 1rem 0;
 }
@@ -425,13 +405,11 @@ ul {
   background-color: chocolate;
   border-radius: 25px;
 }
-
 .formulario h1 {
   text-align: center;
   padding: 20px 0 20px 0;
   border-bottom: 1px solid black;
 }
-
 .formulario form {
   padding: 0 40px;
   box-sizing: border-box;
@@ -452,7 +430,6 @@ form .username {
   background: none;
   outline: none;
 }
-
 .username label {
   position: absolute;
   top: 50%;
@@ -463,7 +440,6 @@ form .username {
   pointer-events: none;
   transition: 0.5s;
 }
-
 .username span::before {
   content: "";
   position: absolute;
@@ -474,14 +450,10 @@ form .username {
   background: orange;
   transition: 0.5s;
 }
-
-.username input:focus ~ label,
 .username input:focus ~ label {
   top: -5px;
   color: white;
 }
-
-.username input:focus ~ span::before,
 .username input:focus ~ span::before {
   width: 100%;
 }
@@ -492,7 +464,6 @@ form .username {
   cursor: pointer;
   text-align: center;
 }
-
 .recordar:hover {
   text-decoration: underline;
 }
@@ -507,7 +478,6 @@ input[type=submit] {
   cursor: pointer;
   outline: none;
 }
-
 input[type=submit]:hover {
   border-color: white;
   transition: 0.5s;
@@ -518,12 +488,10 @@ input[type=submit]:hover {
   text-align: center;
   font-size: 16px;
 }
-
 .registrarse a {
   color: white;
   text-decoration: none;
 }
-
 .registrarse a:hover {
   text-decoration: underline;
 }
