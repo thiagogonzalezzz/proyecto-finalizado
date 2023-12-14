@@ -3,10 +3,13 @@
   border: 10px solid orange;
   border-radius: 50px;
 }
+$colorletraindex: orange;
+$colorfondo: chocolate;
+$colorpindex: white;
 #sec1 {
     font-size: 25px;
     font-weight: bold;
-    color: black;
+    color: $colorletraindex;
     text-shadow: 2px 2px 5px black;
     margin: 20px;
     padding-left: 140px;
@@ -30,13 +33,15 @@
       height: 200px;
       width: 800px;
       text-align: center;
+      background-color: $colorfondo;
+      color: $colorpindex;
     }
   }
   
   #sec2 {
     font-size: 25px;
     font-weight: bold;
-    color: black;
+    color: $colorletraindex;
     text-shadow: 2px 2px 5px black;
     margin: 20px;
     padding-left: 140px;
@@ -60,13 +65,15 @@
       height: 200px;
       width: 800px;
       text-align: center;
+      background-color: $colorfondo;
+      color: $colorpindex;
     }
   }
   
   #sec3 {
     font-size: 25px;
     font-weight: bold;
-    color: black;
+    color: $colorletraindex;
     text-shadow: 2px 2px 5px black;
     margin: 20px;
     padding-left: 140px;
@@ -90,13 +97,15 @@
       height: 200px;
       width: 800px;
       text-align: center;
+      background-color: $colorfondo;
+      color: $colorpindex;
     }
   }
   
   #sec4 {
     font-size: 25px;
     font-weight: bold;
-    color: black;
+    color: $colorletraindex;
     text-shadow: 2px 2px 5px black;
     margin: 20px;
     padding-left: 140px;
@@ -120,6 +129,8 @@
       height: 200px;
       width: 800px;
       text-align: center;
+      background-color: $colorfondo;
+      color: $colorpindex;
     }
   }
   

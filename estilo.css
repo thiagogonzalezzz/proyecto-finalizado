@@ -18,7 +18,7 @@ html {
 #sec1 {
   font-size: 25px;
   font-weight: bold;
-  color: black;
+  color: orange;
   text-shadow: 2px 2px 5px black;
   margin: 20px;
   padding-left: 140px;
@@ -42,12 +42,14 @@ html {
   height: 200px;
   width: 800px;
   text-align: center;
+  background-color: chocolate;
+  color: white;
 }
 
 #sec2 {
   font-size: 25px;
   font-weight: bold;
-  color: black;
+  color: orange;
   text-shadow: 2px 2px 5px black;
   margin: 20px;
   padding-left: 140px;
@@ -71,12 +73,14 @@ html {
   height: 200px;
   width: 800px;
   text-align: center;
+  background-color: chocolate;
+  color: white;
 }
 
 #sec3 {
   font-size: 25px;
   font-weight: bold;
-  color: black;
+  color: orange;
   text-shadow: 2px 2px 5px black;
   margin: 20px;
   padding-left: 140px;
@@ -100,12 +104,14 @@ html {
   height: 200px;
   width: 800px;
   text-align: center;
+  background-color: chocolate;
+  color: white;
 }
 
 #sec4 {
   font-size: 25px;
   font-weight: bold;
-  color: black;
+  color: orange;
   text-shadow: 2px 2px 5px black;
   margin: 20px;
   padding-left: 140px;
@@ -129,6 +135,8 @@ html {
   height: 200px;
   width: 800px;
   text-align: center;
+  background-color: chocolate;
+  color: white;
 }
 
 /* INDEX SECTION */
